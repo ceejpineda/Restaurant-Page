@@ -1,5 +1,8 @@
 console.log("IT RUNS!");
+console.log("IT RUNS!");
 
-const homePage = (()=>{
-    
-})();
+
+import layout from './modules/layout'
+
+layout.createPage();
+layout.loadFunction();

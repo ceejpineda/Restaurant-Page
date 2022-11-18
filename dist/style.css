@@ -1,0 +1,33 @@
+:root{
+
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    border: thick solid black;
+    width: 100vw;
+    height: 10vh;
+}
+.header{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: yellow;
+    height: 100px;
+    width: 50px;
+}
+.contact{
+    background-color: pink;
+    height: 100px;
+    width: 50px;
+}
+.menu{
+    background-color: green;
+    height: 100px;
+    width: 50px;
+}
