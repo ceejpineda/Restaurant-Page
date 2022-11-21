@@ -1,0 +1,84 @@
+:root{
+
+}
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: thick solid black;
+    width: 70vw;
+    height: 20vh;
+    flex-grow: 1;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 70vh;
+    width: 70vw;
+    border: thick solid black;
+    outline: none;
+    border-color: black;
+    box-shadow: 0 0 10px black;
+}
+.title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    flex-grow: 1;
+}
+.navBar{
+    display: flex;
+    gap:20px;
+    justify-self: center;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+.menuContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.menuItem{
+    display: flex;
+    border: thick solid black;
+    justify-self: center;
+    width: 20vw;
+    height: 30vh;
+
+}
+.intro{
+    padding: 20px;
+}
+#waddlesImage{
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}

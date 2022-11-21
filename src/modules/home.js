@@ -12,7 +12,7 @@ function loadHome() {
     location.classList.add('location');
 
     //Making the Intro;
-    const introText = "CJ's Cat Cafe (CCC), is the best cafe in the city";
+    const introText = "Waddles' Cat Cafe, is the best cafe in the city";
     const introTextWrap = document.createElement('p');
     introTextWrap.innerText = introText;
     intro.appendChild(introTextWrap);
@@ -33,7 +33,11 @@ function loadHome() {
     hours.appendChild(hoursTextWrap);
 
     //Making the Location Info;
-    const locationText = '222-2-8 Cat Street Persian Avenue Siamese City, Philippines'
+    const locationText = `
+    222-2-8 Siamese Street 
+    Persian Avenue 
+    Puspin City 
+    Philippines`
     const locationTextWrap = document.createElement('p');
     locationTextWrap.innerText = locationText;
     location.appendChild(locationTextWrap);
