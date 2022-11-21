@@ -6,7 +6,7 @@ const layout = (() => {
     const createPage = () =>{
         const content = document.getElementById('content');
         const navMenu = createNav();
-        const body = createBody();
+        const body = createElement('div', 'body')
 
         content.appendChild(navMenu);
         content.appendChild(body);
@@ -57,9 +57,9 @@ const layout = (() => {
         body.innerHTML = "";
     }
 
-    const createBody = () =>{
-        const body = document.createElement('div');
-        body.classList.add("body")
+    const createElement = (element, classname) =>{
+        const body = document.createElement(element);
+        body.classList.add(classname)
 
         return body;
     }

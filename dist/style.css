@@ -6,6 +6,12 @@
     margin: 0;
     padding: 0;
 }
+#content{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 20px;  
+}
 
 .header{
     border: thick solid black;
@@ -16,10 +22,13 @@
     margin: 0;
     padding: 0;
 }
-.home{
+.homeContainer{
     background-color: yellow;
-    height: 100px;
-    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    flex-grow: 1;
 }
 .contact{
     background-color: pink;
@@ -30,4 +39,17 @@
     background-color: green;
     height: 100px;
     width: 50px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    height: 70vh;
+    width: 70vw;
+    border: thick solid black;
+}
+.intro{
+    padding: 20px;
 }
